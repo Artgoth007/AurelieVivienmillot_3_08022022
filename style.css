@@ -15,12 +15,33 @@ body
 	font-family: 'Shrikhand', cursive;
 }
 
+.texte-centre
+{
+	text-align: center;
+}
+
 /* Header */
 #logo
 {
 	font-size: 31px;
-	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 5px;
-	box-shadow: 0px 1px 5px rgb(207, 207, 207);
+}
+
+#localisation
+{
+	background-color: rgb(234, 234, 234);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 17px;
+	color: rgb(53, 53, 53);
+	font-weight: bold;
+	box-shadow: inset 0px 3px 2px rgb(213, 213, 213);
+}
+
+#localisation i
+{
+	margin-right: 15px;
+	margin-left: -20px;
+	font-size: 18px;
 }
