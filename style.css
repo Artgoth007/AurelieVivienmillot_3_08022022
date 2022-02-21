@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap');
 
 /* General */
 body
@@ -57,10 +57,11 @@ body
 
 #explorer h1
 {
-	font-size: 22px;
+	font-size: 24px;
 	text-align: center;
 	padding-top: 30px;
-	margin: 0px;
+	margin:  0px 60px 0px 60px;
+	font-weight: 900;
 }
 
 #explorer p
@@ -68,7 +69,7 @@ body
 	font-size: 18px;
 	text-align: center;
 	margin-bottom: 5px;
-	font-weight:
+	font-weight: 300;
 }
 
 #bouton-explorer
@@ -86,4 +87,5 @@ body
 	margin-top: 25px;
 	width: min-content;
 	align-self: center;
+	font-weight: 500;
 }
