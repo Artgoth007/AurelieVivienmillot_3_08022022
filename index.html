@@ -11,27 +11,31 @@
 	<header>
 		<img id="Logo-ohmyfood" src="images/ohmyfood.png" alt="Logo ohmyfood"/>
 	</header>
-	<div class="texte-centre" id="localisation">
-		<i class="fa-solid fa-location-dot"></i> Paris, Belleville
-	</div>
-	<section id="explorer">
-		<h1>Réservez le menu qui vous convient</h1>
-		<p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
-		<input type="submit" id="bouton-explorer" value="Explorer nos restaurants" />
-	</section>
-	<main id="fonctionnement-et-restaurants">
-		<section id="fonctionnement">
-			<h2>Fonctionnement</h2>
-		<div class="etapes-restaurant">
-			<span class="numerotation">1</span><i class="fa-solid fa-mobile-screen-button"></i><p>Choisissez un restaurant</p>
+	<main>
+		<div class="texte-centre" id="localisation">
+			<i class="fa-solid fa-location-dot"></i><input id="recherche" name="localisation" type="search" value="Paris, Belleville"/>
 		</div>
-		<div class="etapes-restaurant">
-			<span class="numerotation">2</span><i class="fa-solid fa-list"></i><p>Composez votre menu</p>
-		</div>
-		<div class="etapes-restaurant">
-			<span class="numerotation">3</span><i class="fa-solid fa-store"></i><p>Dégustez au restaurant</p>
-		</div>
+		<section id="explorer">
+			<h1>Réservez le menu qui vous convient</h1>
+			<p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+			<input type="button" id="bouton-explorer" value="Explorer nos restaurants" />
 		</section>
+		<section id="fonctionnement-et-restaurants">
+			<section id="fonctionnement">
+				<h2>Fonctionnement</h2>
+				<ol>
+					<li class="etapes-restaurant">
+						<span><i class="fa-solid fa-mobile-screen-button"></i>Choisissez un restaurant</span>
+					</li>
+					<li class="etapes-restaurant">
+						<span><i class="fa-solid fa-list"></i>Composez votre menu</span>
+					</li>
+					<li class="etapes-restaurant">
+						<span><i class="fa-solid fa-store"></i>Dégustez au restaurant</span>
+					</li>
+				</ol>
+			</section>
+
 	</main>
 </body>
 </html>
