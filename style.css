@@ -15,18 +15,25 @@ body
 	font-family: 'Shrikhand', cursive;
 }
 
+#Logo-ohmyfood
+{
+	margin-top: 25px;
+	margin-bottom: 11px;
+	width: auto;
+	height: 28px;
+}
+
+header
+{
+	text-align: center;
+}
+
 .texte-centre
 {
 	text-align: center;
 }
 
 /* Header */
-#logo
-{
-	font-size: 31px;
-	padding-top: 15px;
-	padding-bottom: 5px;
-}
 
 #localisation
 {
