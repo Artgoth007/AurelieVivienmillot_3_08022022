@@ -201,7 +201,7 @@ input
 #restaurants
 {
 	padding-top: 35px;
-	padding-bottom: 80px;
+	padding-bottom: 45px;
 	background: rgb(246, 246, 246);
 	padding-right: 20px;
 }
@@ -240,7 +240,7 @@ input
 	font-weight: 300;
 }
 
-#fonctionnement, #restaurants
+#fonctionnement, #restaurants, #pied-page
 {
   padding-left: 20px;
   padding-right: 20px;
@@ -285,10 +285,49 @@ input
 	right: 35px;
 }
 
-
 .boite-restaurant
 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+/* Footer */
+
+#pied-page
+{
+	background: rgb(53, 53, 53);
+	color: white;
+	padding-bottom: 5px;
+}
+
+nav
+{
+	display: flex;
+	flex-direction: column;
+}
+
+nav h4
+{
+	padding-top: 0px;
+	font-family: 'Shrikhand', cursive;
+	font-weight: 100;
+	margin-bottom: 0px;
+	font-size: 18px;
+}
+
+nav i
+{
+	padding-right: 5px;
+}
+
+li
+{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+ul
+{
+	padding-left: 0px;
 }
