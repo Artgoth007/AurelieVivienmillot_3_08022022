@@ -172,11 +172,6 @@ input
 	margin-bottom: 50px;
 }
 
-.etapes-restaurant:hover i.fa-solid.fa-mobile-screen-button, .etapes-restaurant:hover i.fa-solid.fa-list, .etapes-restaurant:hover i.fa-solid.fa-store
-{
-	color: #9356DC;
-}
-
 .etapes-restaurant span:hover
 {
 	background: rgb(245, 237, 255);
@@ -191,6 +186,11 @@ input
 	margin-left: 38px;
 	font-size: 20px;
 	height: min-content;
+}
+
+.etapes-restaurant:hover i
+{
+	color: #9356DC;
 }
 
 #restaurants h2
