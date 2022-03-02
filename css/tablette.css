@@ -1,0 +1,94 @@
+.etapes-restaurant span
+{
+	display: flex;
+	align-self: center;
+	background: rgb(246, 246, 246);
+	padding: 50px 0px 50px 0px;
+	margin-top: -25px;
+	border-radius: 15px;
+	margin-bottom: 50px;
+	font-weight: bold;
+	font-size: 16px;
+	max-width:  95%;
+}
+
+.etapes-restaurant span i
+{
+	margin-left: 40px;
+}
+
+
+ol
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+ol li:before
+{
+  counter-increment: myOrderedListItemsCounter;
+  content: counter(myOrderedListItemsCounter);
+  padding: 8px 11px 8px 11px;
+  color: white;
+  border-radius: 100%;
+  left: 100px;
+  top: -15px;
+  font-size: 14px;
+  position: relative;
+}
+
+#restaurants h2
+{
+	min-width: 100%;
+}
+
+.carte-restaurants
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 48%;
+	min-width: 48%;
+}
+
+#restaurants
+{
+	display: flex;
+  	flex-wrap: wrap;
+  	flex-direction: row;
+  	justify-content: space-between;
+  	align-items: space-between;
+}
+
+#restaurants .new-1
+{
+  position: absolute;
+  border: 1px solid #99E2D0;
+  border-radius: 2px;
+  background: #99E2D0;
+  font-size: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: green;
+  margin-top: 15px;
+  right: 35px;
+}
+
+#restaurants .new-2
+{
+  position: absolute;
+  border: 1px solid #99E2D0;
+  border-radius: 2px;
+  background: #99E2D0;
+  font-size: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: green;
+  margin-top: 15px;
+  right: 435px;
+}

@@ -1,0 +1,27 @@
+ol li
+{
+	position: relative;
+	font-size: 14px;
+	border-radius: 100%;
+	margin-top: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 15px;
+	font-weight: 400;
+	list-style-type: none;
+}
+
+ol li:before
+{
+  counter-increment: myOrderedListItemsCounter;
+  content: counter(myOrderedListItemsCounter);
+  padding: 6px 9px 6px 9px;
+  color: white;
+  border-radius: 100%;
+  margin-left: -10px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  position: absolute;
+  top: 22px;
+}

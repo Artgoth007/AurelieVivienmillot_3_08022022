@@ -28,11 +28,6 @@ header
 	text-align: center;
 }
 
-.texte-centre
-{
-	text-align: center;
-}
-
 /* Header */
 
 #localisation
@@ -43,6 +38,7 @@ header
 	color: rgb(53, 53, 53);
 	font-weight: bold;
 	box-shadow: inset 0px 3px 2px rgb(213, 213, 213);
+	text-align: center;
 }
 
 #localisation i
@@ -145,8 +141,6 @@ ol li:before
   padding: 6px 9px 6px 9px;
   color: white;
   border-radius: 100%;
-  margin-left: -10px;
-  margin-bottom: 15px;
   font-size: 12px;
   position: absolute;
   top: 22px;
