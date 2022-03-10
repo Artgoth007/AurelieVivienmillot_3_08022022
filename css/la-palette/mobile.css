@@ -1,0 +1,51 @@
+.nom-restaurant, h3
+{
+	margin-left: 22px;
+}
+
+#carte-la-palette h2, #carte-la-palette i
+{
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+h3
+{
+	margin-top: 30px;
+	margin-bottom: 25px;
+	font-size: 16px;
+	width: 10%;
+}
+
+a
+{
+	font-size: 16px;
+}
+
+#carte-la-palette h4
+{
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+#carte-la-palette h4, p
+{
+	padding-left: 8px;
+}
+
+#pied-page a, #pied-page h4
+{
+	padding-left: 32px;
+}
+
+.prix
+{
+	position: absolute;
+	right: 35px;
+	margin-top: 7px;
+}
+
+.zone-horizontale
+{
+	;
+}
