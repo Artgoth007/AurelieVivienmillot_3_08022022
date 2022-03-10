@@ -1,0 +1,42 @@
+.nom-restaurant, h3
+{
+	margin-left: 20px;
+}
+
+h3
+{
+	width: 2%;
+}
+
+.nom-restaurant
+{
+	justify-content: center;
+}
+
+#carte-la-palette
+{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#carte-la-palette h4, p
+{
+	padding-left: 10px;
+}
+
+.prix
+{
+	right: 65px;
+}
+
+#pied-page h4
+{
+	padding-left: 40px;
+}
+
+nav ul
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
