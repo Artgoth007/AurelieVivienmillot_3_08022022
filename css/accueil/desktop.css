@@ -1,29 +1,35 @@
+/* General */
+
+#fonctionnement, #restaurants, #pied-page
+{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 .etapes-restaurant span
 {
-	display: flex;
-	align-items: center;
-	background: rgb(246, 246, 246);
-	padding: 60px 15px 60px 15px;
-	margin-top: -25px;
+  flex-direction: column;
+  padding: 70px 15px 70px 15px;
 	border-radius: 15px;
-	margin-bottom: 50px;
 	font-weight: bold;
-	font-size: 16px;
-	min-width:  fit-content;
-	max-width: fit-content;
-	border: 1px solid orange;
+  font-size: 21px;
+  min-width: fit-content;
 }
 
 .etapes-restaurant span i
 {
-	margin-left: 0px;
+  display: flex;
+  font-size: 25px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+  justify-content: center;
 }
 
 ol
 {
 	display: flex;
 	flex-direction: row;
-	border: 1px solid blue;
 	justify-content: space-evenly;
 }
 
@@ -31,12 +37,12 @@ ol li:before
 {
   counter-increment: myOrderedListItemsCounter;
   content: counter(myOrderedListItemsCounter);
-  padding: 8px 11px 8px 11px;
+  padding: 9px 12px 9px 12px;
   color: white;
   border-radius: 100%;
-  left: 100px;
+  left: 45%;
   top: -15px;
-  font-size: 14px;
+  font-size: 16px;
   position: relative;
 }
 
@@ -47,7 +53,6 @@ ol li:before
 
 .carte-restaurants
 {
-	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	max-width: 48%;
@@ -57,14 +62,13 @@ ol li:before
 #restaurants
 {
 	display: flex;
-  	flex-wrap: wrap;
-  	flex-direction: row;
-  	justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #restaurants .new-1
 {
-  position: absolute;
   border: 1px solid #99E2D0;
   border-radius: 2px;
   background: #99E2D0;
@@ -75,12 +79,11 @@ ol li:before
   padding-top: 5px;
   color: green;
   margin-top: 15px;
-  right: 4%;
+  right: 8%;
 }
 
 #restaurants .new-2
 {
-  position: absolute;
   border: 1px solid #99E2D0;
   border-radius: 2px;
   background: #99E2D0;
@@ -92,4 +95,22 @@ ol li:before
   color: green;
   margin-top: 15px;
   right: 54%;
+}
+
+.image-restaurant
+{
+  height: 280px;
+}
+
+.fa-heart
+{
+  /*position:  relative;*/
+  /*margin-left: 37.5%;*/
+}
+
+nav ul
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

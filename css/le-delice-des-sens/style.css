@@ -40,7 +40,7 @@ header .fa-arrow-left
 	margin-right: auto;
 }
 
-.image-la-palette
+.image-le-delice-des-sens
 {
 	height: 250px;
 	width: 100%;
@@ -49,7 +49,7 @@ header .fa-arrow-left
 	z-index: 1;
 }
 
-#carte-la-palette
+#carte-le-delice-des-sens
 {
 	background: rgb(246, 246, 246);
 	border-top-left-radius: 35px;
@@ -61,7 +61,7 @@ header .fa-arrow-left
 	flex-direction: column;
 }
 
-#carte-la-palette h2
+#carte-le-delice-des-sens h2
 {
 	font-family: 'Shrikhand', cursive;
 	font-size: 28px;
@@ -109,8 +109,7 @@ header .fa-arrow-left
     -moz-text-fill-color: transparent;
     transition: opacity 600ms ease-in-out;
 }
-
-#carte-la-palette div
+#carte-le-delice-des-sens div
 {
 	border: 1px solid white;
 	background: white;
@@ -126,12 +125,12 @@ header .fa-arrow-left
 	flex-direction: row;
 }
 
-#carte-la-palette .prix
+#carte-le-delice-des-sens .prix
 {
 	font-weight: bold;
 }
 
-#carte-la-palette p
+#carte-le-delice-des-sens p
 {
 	font-weight: 300;
 	margin-top: 6px;
@@ -156,7 +155,7 @@ h3
 	padding-bottom: 5px;
 }
 
-#carte-la-palette h4
+#carte-le-delice-des-sens h4
 {
 	margin-top: 10px;
 	margin-bottom: 0px;

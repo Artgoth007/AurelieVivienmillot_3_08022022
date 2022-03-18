@@ -13,6 +13,12 @@ h3
 	justify-content: center;
 }
 
+.fa-heart
+{
+	align-self: center;
+	right: 50px;
+}
+
 #carte-la-palette
 {
 	padding-left: 15px;

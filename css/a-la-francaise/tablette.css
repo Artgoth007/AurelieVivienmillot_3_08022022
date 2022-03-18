@@ -5,7 +5,7 @@
 
 h3
 {
-	width: 2%;
+	width: 5%;
 }
 
 .nom-restaurant
@@ -16,28 +16,33 @@ h3
 .fa-heart
 {
 	align-self: center;
-	right: 65px;
+	right: 50px;
 }
 
-#carte-la-palette
+#carte-a-la-francaise
 {
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
-#carte-la-palette h4, p
+#carte-a-la-francaise h4
 {
-	padding-left: 10px;
+	font-size: 18px;
+}
+
+#carte-a-la-francaise h4, p
+{
+	padding-left: 8px;
 }
 
 .prix
 {
-	right: 65px;
+	right: 50px;
 }
 
 #pied-page h4
 {
-	padding-left: 40px;
+	padding-left: 5.5%;
 }
 
 nav ul

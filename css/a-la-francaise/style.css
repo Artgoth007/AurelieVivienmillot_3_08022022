@@ -40,7 +40,7 @@ header .fa-arrow-left
 	margin-right: auto;
 }
 
-.image-la-palette
+.image-a-la-francaise
 {
 	height: 250px;
 	width: 100%;
@@ -49,7 +49,7 @@ header .fa-arrow-left
 	z-index: 1;
 }
 
-#carte-la-palette
+#carte-a-la-francaise
 {
 	background: rgb(246, 246, 246);
 	border-top-left-radius: 35px;
@@ -61,7 +61,7 @@ header .fa-arrow-left
 	flex-direction: column;
 }
 
-#carte-la-palette h2
+#carte-a-la-francaise h2
 {
 	font-family: 'Shrikhand', cursive;
 	font-size: 28px;
@@ -110,7 +110,7 @@ header .fa-arrow-left
     transition: opacity 600ms ease-in-out;
 }
 
-#carte-la-palette div
+#carte-a-la-francaise div
 {
 	border: 1px solid white;
 	background: white;
@@ -126,12 +126,12 @@ header .fa-arrow-left
 	flex-direction: row;
 }
 
-#carte-la-palette .prix
+#carte-a-la-francaise .prix
 {
 	font-weight: bold;
 }
 
-#carte-la-palette p
+#carte-a-la-francaise p
 {
 	font-weight: 300;
 	margin-top: 6px;
@@ -156,7 +156,7 @@ h3
 	padding-bottom: 5px;
 }
 
-#carte-la-palette h4
+#carte-a-la-francaise h4
 {
 	margin-top: 10px;
 	margin-bottom: 0px;

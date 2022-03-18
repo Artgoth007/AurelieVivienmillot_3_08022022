@@ -1,0 +1,15 @@
+.etapes-restaurant span
+{
+	margin-bottom: 50px;
+}
+
+ol li:before
+{
+  padding: 6px 9px 6px 9px;
+  font-size: 12px;
+  margin-left: -10px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  position: absolute;
+  top: 22px;
+}

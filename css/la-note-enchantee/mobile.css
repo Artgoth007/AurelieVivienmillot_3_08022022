@@ -3,7 +3,7 @@
 	margin-left: 22px;
 }
 
-#carte-la-palette h2, #carte-la-palette i
+#carte-la-note-enchantee h2, #carte-la-note-enchantee i
 {
 	margin-top: 20px;
 	margin-bottom: 0px;
@@ -28,13 +28,13 @@ a
 	right: 35px;
 }
 
-#carte-la-palette h4
+#carte-la-note-enchantee h4
 {
 	margin-top: 10px;
 	font-size: 18px;
 }
 
-#carte-la-palette h4, p
+#carte-la-note-enchantee h4, p
 {
 	padding-left: 8px;
 }
