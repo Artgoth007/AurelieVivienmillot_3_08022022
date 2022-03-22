@@ -102,10 +102,28 @@ ol li:before
   height: 280px;
 }
 
-.fa-heart
+.heart-1
 {
-  /*position:  relative;*/
-  /*margin-left: 37.5%;*/
+ left: 45%;
+ margin-top: -70px;
+}
+
+.heart-2
+{
+  right: 8%;
+  margin-top: -70px;
+}
+
+.heart-3
+{
+  left: 45%;
+  margin-top: -70px;
+}
+
+.heart-4
+{
+  right: 8%;
+  margin-top: -70px;
 }
 
 nav ul

@@ -87,6 +87,30 @@ ol li:before
   right: 54%;
 }
 
+.heart-1
+{
+ left: 42%;
+ margin-top: -70px;
+}
+
+.heart-2
+{
+  right: 5%;
+  margin-top: -70px;
+}
+
+.heart-3
+{
+  left: 42%;
+  margin-top: -70px;
+}
+
+.heart-4
+{
+  right: 5%;
+  margin-top: -70px;
+}
+
 nav ul
 {
   display: flex;

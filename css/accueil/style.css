@@ -240,7 +240,7 @@ input
   padding-right: 20px;
 }
 
-.carte-restaurants
+.carte-restaurants a
 {
   display: flex;
   min-width: 100%;
@@ -257,16 +257,11 @@ input
   object-fit: cover;
 }
 
-.container-heart
-{
-	 margin-right: 35px;
-}
-
 .fa-heart
 {
-  position: relative;
+  position: absolute;
   font-size: 25px;
-  padding-top: 20px;
+  right: 10px;
 }
 
 .fa-regular.fa-heart
@@ -282,7 +277,6 @@ input
 
 .fa-solid.fa-heart
  {
- 	margin-left: -24px;
  	opacity: 0;
  }
 
