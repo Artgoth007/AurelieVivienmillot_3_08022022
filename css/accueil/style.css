@@ -264,7 +264,6 @@ input
 
 .fa-heart
 {
-	
   position: relative;
   font-size: 25px;
   padding-top: 20px;
@@ -272,19 +271,19 @@ input
 
 .fa-regular.fa-heart
 {
-   opacity: 1;
-   color: grey;
+  opacity: 1;
+  color: grey;
 }
 
 .fa-regular.fa-heart:hover
  {
-  	/*opacity: 0;*/
+  opacity: 0;
  }
 
 .fa-solid.fa-heart
  {
- 	  margin-left: -24px;
- 	  /*opacity: 0;*/
+ 	margin-left: -24px;
+ 	opacity: 0;
  }
 
 .fa-solid.fa-heart:hover
@@ -292,11 +291,11 @@ input
 	opacity: 1;
 	background: linear-gradient(to top left, #9356DC, #FF79DA);
 	background-clip: content-box;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    transition: opacity 600ms ease-in-out;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  transition: opacity 600ms ease-in-out;
 }
 
 #restaurants .new-1, #restaurants .new-2
@@ -312,7 +311,7 @@ input
   padding-top: 5px;
   color: green;
   margin-top: 15px;
-  right:  50px;
+  right: 50px;
 }
 
 .boite-restaurant
