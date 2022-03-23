@@ -79,7 +79,7 @@ ol li:before
   padding-top: 5px;
   color: green;
   margin-top: 15px;
-  right: 8%;
+  right: 120px;
 }
 
 #restaurants .new-2
@@ -104,25 +104,25 @@ ol li:before
 
 .heart-1
 {
- left: 45%;
+ right: 54%;
  margin-top: -70px;
 }
 
 .heart-2
 {
-  right: 8%;
+  right: 120px;
   margin-top: -70px;
 }
 
 .heart-3
 {
-  left: 45%;
+  right: 54%;
   margin-top: -70px;
 }
 
 .heart-4
 {
-  right: 8%;
+  right: 120px;
   margin-top: -70px;
 }
 
